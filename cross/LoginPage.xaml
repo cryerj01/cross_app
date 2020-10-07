@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cross.LoginPage">
+   <StackLayout
+       Margin="20"
+       VerticalOptions="Center">
+
+       <Label HorizontalOptions="Center"
+           Text="Login"
+           FontSize="50"
+           />
+
+        <Entry
+            Placeholder="Email"
+            Keyboard="Email"
+            x:Name="EmailInput"
+
+            />
+        <Entry 
+            Placeholder="Password"
+            IsPassword="True"
+            x:Name="PasswordInput"
+            />
+       <Button
+           Text="Login"
+           Clicked="LoginClicked"
+           Margin="60 , 20"
+           BackgroundColor="Gray"
+           TextColor="White"
+           />
+       <Button
+           Text="Sign up"
+           Clicked="singuppage"
+           Margin="80,50"
+           BackgroundColor="LightBlue"
+           TextColor="Black"
+           />
+
+
+
+    </StackLayout>
+</ContentPage>

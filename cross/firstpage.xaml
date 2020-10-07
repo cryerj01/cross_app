@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="cross.firstpage">
+  <StackLayout Margin=" 90, 0" Scale=" 1.5" VerticalOptions="Center">
+      <Button
+          Margin=" 0,20"
+          Text="Sign Up  "
+          Padding="40"
+          Clicked="onSignupPage"
+          x:Name="goToSignUp"
+         
+          />
+        <Button
+            Text="Login In"
+            Padding="40"
+            Clicked="onloginPage"
+            x:Name="goToLogin"
+            />
+      
+    </StackLayout>
+</ContentPage>
